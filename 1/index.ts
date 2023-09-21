@@ -15,7 +15,7 @@ interface Pago {
   
   // Recorriendo y mostrando los elementos
   //usando for if
-  console.log('Recorriendo con for y if:');
+  console.log('Recorriendo con for if:');
 for (let i = 0; i < Pagos.length; i++) {
   const pago = Pagos[i];
   if (pago.metodoPago === 'transferencia bancaria') {
