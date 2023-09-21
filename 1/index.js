@@ -1,5 +1,5 @@
 //Arreglo
-/*const pagos = [
+const pagos = [
     { id: 1, monto: 20, fecha: '2023-08-15', metodoPago: 'transferencia bancaria' },
     { id: 2, monto: 1, fecha: '2023-08-20', metodoPago: 'tarjeta de credito' },
     { id: 3, monto: 15, fecha: '2023-08-15', metodoPago: 'tarjeta de credito' },
@@ -41,4 +41,4 @@ BuscarPorId(5,(error, pagos)=>{
         console.log("ha ocurrido un error")
     }
     console.log(pagos);
-});*/
+});
